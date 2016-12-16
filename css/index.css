@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    outline:none;
+    font-size:14px;
+}
+.box{
+    width:800px;
+    margin:50px auto;
+    padding:20px;
+    border:3px solid lightseagreen;
+    text-align:center;
+    overflow:hidden;
+}
+.box h1{
+    height:35px;
+    line-height:35px;
+    background:lightseagreen;
+    color:#fff;
+    font-size:16px;
+}
+.content li{
+    overflow:hidden;
+}
+.content li:nth-child(even){
+    background:#e1e1e1;
+}
+.content li:hover{
+    background:lightcyan;
+}
+.box h1 span,.content li span{
+    width:200px;
+    float:left;
+    text-align:center;
+    height:30px;
+    line-height:30px;
+    cursor:pointer;
+}
+.footer{
+    height:20px;
+    display:inline-block;
+    margin-top:20px;
+}
+.footer span,.footer ul,.footer li,.footer input{
+    float:left;
+    border:1px solid lightseagreen;
+    height:20px;
+    line-height:20px;
+    text-align:center;
+    cursor:pointer;
+    margin:0 3px;
+}
+.footer ul{
+    border:none;
+}
+.footer li{
+    width:20px;
+    height:20px;
+}
+.footer li.bg{
+    background:lightseagreen;
+    color:#fff;
+}
+.footer span,.footer input{
+    width:55px;
+}
+.box2{
+    border:2px solid lightseagreen;
+    padding:5px;
+    width:200px;
+    margin:50px auto;
+}
+.box2 li{
+    height:40px;
+}
+.box2 li:nth-child(even){
+    background:#e1e1e1;
+}
+.box2 li span{
+    float:left;
+    width:100px;
+    text-align:center;
+    height:40px;
+    line-height:40px;
+}
